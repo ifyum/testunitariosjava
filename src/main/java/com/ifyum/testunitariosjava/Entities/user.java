@@ -1,6 +1,8 @@
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 @Table(name = "user")
-
 public class Jhi_user extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
